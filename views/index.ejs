@@ -1,6 +1,46 @@
 <%- include('partials/header') %>
 
-<h1>Welcome to my portfolio</h1>
-<p>This is the Home page.</p>
+<section class="hero">
+  <div class="container hero-inner text-center">
+    <h1 class="hero-title">Hi — I'm Param Sharma</h1>
+    <p class="hero-sub">IT student • Developer • Learning cybersecurity & web</p>
+    <div class="mt-4">
+      <a class="btn btn-ghost me-2" href="/about">About</a>
+      <a class="btn btn-primary" href="/projects">See Projects</a>
+    </div>
+  </div>
+</section>
+
+<section class="container section brief mt-5">
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card feature-card">
+        <div class="card-body text-center">
+          <i class="fas fa-code feature-icon"></i>
+          <h5 class="mt-3">Web Development</h5>
+          <p class="small">Express, EJS, HTML, CSS, JS</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card feature-card">
+        <div class="card-body text-center">
+          <i class="fas fa-shield-alt feature-icon"></i>
+          <h5 class="mt-3">Cybersecurity</h5>
+          <p class="small">Basics of network & threats</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card feature-card">
+        <div class="card-body text-center">
+          <i class="fas fa-rocket feature-icon"></i>
+          <h5 class="mt-3">Growth</h5>
+          <p class="small">Learning new tools weekly</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <%- include('partials/footer') %>

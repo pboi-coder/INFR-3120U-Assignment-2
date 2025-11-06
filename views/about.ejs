@@ -1,6 +1,28 @@
 <%- include('partials/header') %>
 
-<h1>About Me</h1>
-<p>Hi! My name is Param Sharma. I am a student passionate about technology and development.</p>
+<section class="container section">
+  <div class="row align-items-center">
+    <div class="col-md-4 text-center">
+      <img src="/images/profile.jpg" class="profile-img mb-3" alt="Profile Photo">
+    </div>
+
+    <div class="col-md-8">
+      <h2>About Me</h2>
+      <p class="lead">I'm Param Sharma — an IT student focused on developing web applications and learning cybersecurity. I enjoy building clean, functional interfaces and exploring how systems can be made more secure.</p>
+
+      <h5 class="mt-4">Skills</h5>
+      <div class="d-flex flex-wrap gap-2 mt-2">
+        <span class="badge skill">JavaScript</span>
+        <span class="badge skill">Node.js</span>
+        <span class="badge skill">Express</span>
+        <span class="badge skill">EJS</span>
+        <span class="badge skill">HTML & CSS</span>
+      </div>
+
+      <h5 class="mt-4">Education & Interests</h5>
+      <p class="small">Currently studying IT; interested in full-stack development and cybercrime research. I lift weights, enjoy problem solving, and build small apps to practice.</p>
+    </div>
+  </div>
+</section>
 
 <%- include('partials/footer') %>

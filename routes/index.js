@@ -21,4 +21,9 @@ router.get('/contact', function(req, res) {
   res.render('contact');
 });
 
+router.get('/', (req, res) => {
+    res.render('index', { title: 'Home Page' });
+});
+
+
 module.exports = router;
